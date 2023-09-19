@@ -14,6 +14,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 //@EnableJpaRepositories("com.example.repository")
 public class ProviderUserApplication {
 	public static void main(String[] args){
+		System.out.println("Hi");
 		SpringApplication.run(ProviderUserApplication.class, args);
 	}
 
